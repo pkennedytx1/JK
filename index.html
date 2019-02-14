@@ -10,15 +10,27 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="icon" type="image/png" href="assets/images/J!.png">
+
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="app.js"></script>
     </head>
 
     <div class="clearfix">
-    <nav class="navbar navbar-dark" style="background-color: #99CED3;">
+    <nav class="navbar navbar-dark">
         <a class="navbar-brand" href="index.html">
           <img src="assets/images/J! Logo.png" width="30" height="30" class="d-inline-black align-top" alt="">
-          Joseph Kennemmer
+            Joseph Kennemmer
         </a>
         <ul class="nav justify-content-center">
             <li class="nav-item">
@@ -30,39 +42,43 @@
             <li class="nav-item">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Blog</a>
-            </li>
           </ul>
     </nav>
     </div>
     
     <div class="logobox">
-        <img src="assets/images/J! Logo.png" width="100" heigh="100"> Joseph Kennemmer
+        <img src="assets/images/J! Logo.png" width="125" heigh="125">
     </div>
 
     <body>
+    <div class="content">
+
     <div class="jumbotron">
         <h1 class="display-4">Sound Design & Re-Recording Mixing</h1>
-        <p class="lead">Specializing in These Sound Things.</p>
-        <hr class="my-4">
-        <p>Check Out Some of my Work, or Veiw My Reel Below.</p>
-        <a class="btn btn-outline-light" href="projects.html" role="button">My Projects</a>
+        <div id="str"></div>
     </div>
+
+        <div class="buts">
+        <br><br>
+        <a id="projects" class="btn btn-outline-light" href="projects.html" role="button"><i class="fas fa-circle"></i></i>&nbsp&nbspMy Projects</a>
+        <a  id="reelbut" class="btn btn-outline-light" role="button"><i class="fas fa-play"></i>&nbsp&nbspVeiw Reel</a>
+        </div>
     
-    <div class="videobox">
-    <h1 id="Reel">Reel</h1>
-    <hr>
-    <div class="video">
-        <iframe src="https://player.vimeo.com/video/279542470" width="640" height="272" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
-    </div>
+        <br><br><a  id="close" class="btn btn-outline-light" role="button"><i class="fas fa-times"></i>&nbsp&nbspClose Video</a>
+    
+    
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
+    </div>
     <footer class="footer">
-         <p>Quote<br>Copyright &copy</p>
+        <p id="landingquote">“The role of sound is really exactly what the role of every other aspect of filmmaking is, and that is to tell stories.”<br>-Mark Mangini<br></p>
+        <p>PK Co. &copy</p>
      </footer>
     </body>
 </html>
