@@ -38,4 +38,5 @@ str.length > 0 ? el.innerHTML += str.shift() : clearTimeout(running);
 var running = setTimeout(animate, 65);
 })();
 
-    
+
+
