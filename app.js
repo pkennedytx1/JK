@@ -40,3 +40,6 @@ var running = setTimeout(animate, 65);
 
 
 
+$(function() {
+    $('body').removeClass('fade-out');
+});
