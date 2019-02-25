@@ -1,0 +1,55 @@
+
+.drop {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    display: none;
+}
+
+.drop li {
+    padding: 10px;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.drop a {
+    color: black;
+}
+
+.drop a:hover {
+    text-decoration: none;
+}
+
+.burger {
+    font-size: 28px;
+    display: none;
+}
+
+.hamburger {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    color: rgba(248, 248, 248, 0.733);
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+@media only screen and (max-width : 720px) {
+
+    .burger {
+        display: inline;
+    }
+
+    .nav {
+        display: none;
+    }
+    
+    .drop {
+        display: block;
+    }
+
+}
