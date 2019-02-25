@@ -19,12 +19,12 @@ $("#close").on('click', function(){
 
 setTimeout(function(){
     $("#str").fadeOut( "slow" );
-}, 6000);
+}, 7000);
 
 setTimeout(function(){
     $("#str").html("<p id='after'>Sound is the puppet master of emotion. Let's make your audience  <i id='feel'>feel</i>&nbspyour story.</p>")
     $("#str").fadeIn( "slow" );
-}, 6500);
+}, 7500);
 
 var string = "Sound is the puppet master of emotion. Let’s make your audience feel your story.";
 
