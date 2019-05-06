@@ -60,7 +60,6 @@ body {
     border-radius: 6px;
     padding: 20px;
     background-color: black;
-   
     color: rgb(54, 54, 54);
 }
 
@@ -364,6 +363,9 @@ body {
 .card-img-top {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+    overflow: hidden;
+    height: 275px;
+    object-fit: cover;
   }
 
   #one {
